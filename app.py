@@ -24,7 +24,6 @@ def load_model(path: str) -> CatBoostRegressor:
 
 
 st.title("🚛 Freight Rate Estimator")
-st.caption("Predicts the posted rate for a shipment using the CatBoost model trained in your notebook.")
 
 # --- Load the bundled model (ships with the app, nothing for users to upload) ---
 try:
